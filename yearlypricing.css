@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  /* background: yellowgreen; */
+}
+
+.heading p {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  grid-template-columns: 300px 1fr;
+  padding: 25px;
+  justify-content: center;
+}
+
+/* .button-area {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+} */
+
+.button {
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: #1f4d91;
+  color: white;
+  border: none;
+  margin-bottom: 40px;
+}
+
+/* .botton-area {
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
+} */
+/* .botton-box {
+  width: 200px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 30px;
+  background: blue;
+}
+
+.toggle-btn {
+  padding: 10px 40px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  position: relative;
+  text-align: center;
+}
+
+#btn {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #e67e22;
+  border-radius: 30px;
+} */
+
+.features {
+  padding-left: 5px;
+  padding-top: 15px;
+}
+
+.horizontal-line {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(168, 168, 168);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list {
+  /* height: 40px; */
+  padding-left: 10px;
+  font-size: 12px;
+}
+.right-side {
+  /* margin-left: 10px; */
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  justify-content: center;
+  padding-left: 80px;
+}
+.top-button {
+  height: 90px;
+  width: 80px;
+  display: flex;
+  background-color: #7994bd;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.bottom-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: gray;
+}
+
+.devices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-weight: normal;
+  font-size: 10px;
+  color: gray;
+  font-weight: 500;
+}
+
+.top-button:hover {
+  background-color: #1f4d91;
+}
+.bottom-buttons:hover {
+  color: #1f4d91;
+}
+
+.next-btn {
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+}
+.btnnext {
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  background-color: #1f4d91;
+  font-size: 14px;
+}

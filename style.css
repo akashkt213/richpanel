@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1e4d90;
+}
+
+.container {
+  align-items: center;
+}
+
+.form-box {
+  width: 90%;
+  max-width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+.createAccount {
+  font-family: Roboto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.form-box p {
+  padding-bottom: 5px;
+  font-size: 11px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.placeholder {
+  height: 27px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: block;
+  border-color: rgb(216, 216, 216);
+  border-width: 1.5px;
+  border-style: solid;
+  padding-left: 8px;
+  font-family: Roboto;
+  font-size: 12px;
+}
+.placeholder:focus {
+  outline-width: 0;
+}
+
+input {
+  width: 100%;
+}
+
+.remember {
+  display: inline-block;
+}
+
+.sign-up {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1f4d91;
+  color: white;
+  font-size: 12px;
+  font-family: arial;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+.Already {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 18px;
+}
